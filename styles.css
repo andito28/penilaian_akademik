@@ -1,0 +1,81 @@
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    background: gray;
+    }
+
+    .container{
+    width: 900px;
+    margin: 0 auto;
+    padding: 5px 5px;
+    background: white;
+    }
+
+    .header{
+        background :  #3498DB;
+        padding: 10px 10px;
+    }
+    .header ul{
+        display: flex;
+        width: 400px;
+        justify-content: space-between;
+        padding :0;
+        margin:0;
+      
+    }
+
+   ul li{
+        list-style-type: none;
+    }
+
+    ul li a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 17px;
+        color : white;
+    }
+
+    ul li a:hover{
+        color: orange;
+    }
+
+    button{
+        cursor :pointer;
+        background: #3498DB;
+        color: white;
+        border-radius: 5px;
+    }
+
+    button:hover{
+        background : orange;
+    }
+
+    footer{
+        margin:0;
+        margin-top: 10px;
+        padding: 12px 12px;
+        background: #3498DB;
+        text-align: center;
+        color : white;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .notif{
+        color:red;
+    }
+
+    @media only screen and (max-width: 600px) {
+
+        body{
+            width: 100%;
+            background: white;
+        }
+        .container{
+            width: 100%;
+        }
+        
+        .cetak table{
+            width: 100%;
+        }
+      }
